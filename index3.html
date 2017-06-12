@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scale=yes">
+        <meta charset="utf-8">
+        <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <style>
+            *, html {
+                padding: 0;
+                margin: 0;
+            }
+            
+            body {
+                background-color: gray;
+            }
+            
+            header {
+                background-color: yellow;
+                width: 100%;
+                height: 20.32520325203252%;
+                display: inline-block;
+            }
+            section {
+                width: 100%;
+                height: 500px;
+            }
+            
+            #logo {
+                width: 150px;
+                height: 20.32520325203252%;
+            }
+            
+            #banner {
+                float: right;
+                width: 30%;
+                height: 150px;
+            }
+            
+            #banner:after {
+                content: ' ';
+                clear: both;
+            }
+            
+            #left_col {
+                float: left;
+                width: 50%;
+                text-align: center;
+                height: 67.75067750677507%;
+                line-height: 67.75067750677507%;
+                background-color: blueviolet;
+            }
+            
+            #right_col {
+                float: left;
+                width: 50%;
+                height: 40.65040650406504%;
+                background-color: pink;
+                text-align: center;
+                line-height: 40.65040650406504%;
+            }
+            
+            #right_col:after {
+                content: ' ';
+                clear: both;
+            }
+            
+            
+            footer {
+                background-color: black;
+                color: white;
+                width: 100%;
+                height: 50px;
+                text-align: center;
+                line-height: 50px;  
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+                <img id="logo" src="img/logo_icon.png">
+                <img id="banner" src="img/banner1.jpg">
+        </header>
+        <section>
+            <div id="left_col">Left</div>
+            <div id="right_col">Right</div>
+        </section>
+        <footer>&copy; 2017 - Text</footer>
+    </body>
+</html>
